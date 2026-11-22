@@ -17,6 +17,7 @@ jobs:
     with:
       operation: auto
       config: .github/lazycat-action.yml
+      versioned-release-asset: true
       toolchains: node
       node-version: 22.x
       node-package-manager: yarn
